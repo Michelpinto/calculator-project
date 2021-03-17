@@ -1,0 +1,47 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator app</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <h1 class="heading">Calculator App</h1>
+    <div class="calculator">
+      <!-- <div class="results"> -->
+        <input type="text" class="display__screen" value="" disabled></input>
+      <!-- </div> -->
+      <div class="operations">
+        <button class="operations__ac" data-action="clear" value="clear">ac</button>
+        <button class="operators" data-action="add" value="+">&#43;</button>
+        <button class="operators" data-action="subtract" value="-">&#45;</button>
+        <button class="operations__number" value="7">7</button>
+        <button class="operations__number" value="8">8</button>
+        <button class="operations__number" value="9">9</button>
+        <button class="operators" data-action="multiply" value="*">&#215;</button>
+        <button class="operations__number" value="4">4</button>
+        <button class="operations__number" value="5">5</button>
+        <button class="operations__number" value="6">6</button>
+        <button class="operators" data-action="divide" value="/">&#247;</button>
+        <button class="operations__number" value="1">1</button>
+        <button class="operations__number" value="2">2</button>
+        <button class="operations__number" value="3">3</button>
+        <button class="operations__equal operators" data-action="calculate" value="=">&#61;</button>
+        <button class="operations__zero" value="0">0</button>
+        <button class="operations__dot" data-action="decimal" value=".">&#46;</button>
+      </div>
+    </div>
+  </body>
+</html>
